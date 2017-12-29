@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="org.example.gogeof:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="org.example.gogeof.war">
+      <element id="artifact" artifact-name="org.example.gogeof:war exploded" />
+    </root>
+  </artifact>
+</component>
