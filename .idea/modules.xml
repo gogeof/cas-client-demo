@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/org.example.gogeof.iml" filepath="$PROJECT_DIR$/org.example.gogeof.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cas-client-demo.iml" filepath="$PROJECT_DIR$/cas-client-demo.iml" />
     </modules>
   </component>
 </project>

@@ -8,11 +8,6 @@ import org.jasig.cas.client.authentication.UrlPatternMatcherStrategy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * @author Carl
- * @date 2017/9/28
- * @since 1.5.0
- */
 public class SimpleUrlPatternMatcherStrategy implements UrlPatternMatcherStrategy {
     protected final Logger logger = LoggerFactory.getLogger(getClass());
 
