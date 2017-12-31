@@ -27,7 +27,7 @@
         </init-param>
         <init-param>
             <param-name>ignorePattern</param-name>
-            <param-value>/*index.jsp</param-value>
+            <param-value>/*index.jsp$</param-value>
         </init-param>
     </filter>
 
