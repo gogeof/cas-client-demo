@@ -10,6 +10,10 @@
 ```cmd
 mvn jetty:run
 ```
+start with special port:
+```cmd
+mvn jetty:run -Djetty.port=10086
+```
 
 访问：
 [http://localhost:8080/sample](http://localhost:8080/sample)

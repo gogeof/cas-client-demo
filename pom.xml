@@ -5,9 +5,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>org.example.gogeof</artifactId>
-    <groupId>cas-client-demo</groupId>
-    <version>v1.0.0-SNAPT</version>
+    <groupId>org.example.gogeof</groupId>
+    <artifactId>cas-client-demo</artifactId>
+    <version>v1.0.0</version>
 
     <packaging>war</packaging>
     <description>A sample web application that exercises the CAS protocol features via the Java CAS Client.</description>
@@ -30,7 +30,7 @@
                         <contextPath>/sample</contextPath>
                         <overrideDescriptor>${basedir}/etc/jetty/web.xml</overrideDescriptor>
                     </webApp>
-                    <jvmArgs>-Xdebug -Xrunjdwp:transport=dt_socket,address=5002,server=y,suspend=n</jvmArgs>
+					<jvmArgs>-Xdebug -Xrunjdwp:transport=dt_socket,address=5002,server=y,suspend=n</jvmArgs>
                 </configuration>
             </plugin>
             <plugin>
@@ -45,11 +45,13 @@
     </build>
 
     <dependencies>
+        <!--
         <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
             <version>1.1.1</version>
         </dependency>
+        -->
 
         <dependency>
             <groupId>log4j</groupId>
@@ -75,5 +77,13 @@
             <version>2.4</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring</artifactId>
+            <version>2.5.6</version>
+        </dependency>
+
     </dependencies>
 </project>
